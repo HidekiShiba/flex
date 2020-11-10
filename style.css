@@ -10,12 +10,14 @@
   display: flex;
   justify-content: flex-end;
 }
+
 .header > div {
   background-color: #fbb3ff;
   width: 140px;
   height: 70px;
   margin: 0 10px;
 }
+
 .header > :first-child {
   margin-right: auto;
 }
@@ -24,10 +26,12 @@
   display: flex;
   justify-content: center;
 }
+
 .sidebar {
   background-color: #d8ffb6;
   width: 300px;
 }
+
 .content {
   background-color: #00b522;
   padding: 20px;
@@ -37,6 +41,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .content > div {
   background-color: #fff75a;
   flex-basis: 200px;
@@ -51,6 +56,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .footer > div {
   background-color: #b6e7ff;
   width: 45%;
